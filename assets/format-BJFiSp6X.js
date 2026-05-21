@@ -1,0 +1,1 @@
+import"./rolldown-runtime-S-ySWqyJ.js";import{L as e}from"./element-plus-D5bxOa8g.js";e();function t(e,t=2,n=`¥`){return`${n}${e.toFixed(t).replace(/\B(?=(\d{3})+(?!\d))/g,`,`)}`}function n(e){return e>=1e4?`${(e/1e4).toFixed(1)}万`:e.toLocaleString()}export{n,t};
