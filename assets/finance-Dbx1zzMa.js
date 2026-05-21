@@ -1,1 +1,0 @@
-import{t as e}from"./request-mwTbnRJi.js";function t(){return e.get(`/finance/billing-rules`)}function n(t){return e.post(`/finance/billing-rules`,t)}function r(t){return e.delete(`/finance/billing-rules/${t}`)}function i(t){return e.get(`/finance/bills`,{params:t})}export{n as i,t as n,i as r,r as t};
